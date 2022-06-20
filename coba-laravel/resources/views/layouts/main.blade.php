@@ -18,7 +18,7 @@
 <div class="row align-items-stretch col-group">
     <div class="col overflow-hidden bg-primary p-0" style="max-width: 180px; height: 837px">
       <div class="container-fluid border-bottom border-secondary px-1 pb-1 pt-2">
-        <h4 class="text-light my-2 me-3">sentra</h4>
+        <h4 class="text-light my-2 me-3">mukena</h4>
       </div>
       
       <div>
