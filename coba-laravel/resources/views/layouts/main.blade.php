@@ -18,7 +18,7 @@
 <div class="row align-items-stretch col-group">
     <div class="col overflow-hidden bg-primary p-0" style="max-width: 180px; height: 837px">
       <div class="container-fluid border-bottom border-secondary px-1 pb-1 pt-2">
-        <h4 class="text-light my-2 me-3">sentra</h4>
+        <h4 class="text-light my-2 me-3">Sentra</h4>
       </div>
       
       <div>
@@ -27,7 +27,7 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Products</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
+            <a href="{{route('sell')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Shift</a>
           </div><div class="col p-3 mx-2 my1">
@@ -35,7 +35,7 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('customers.index')}}" class="text-white text-decoration-none fw-semibold">Contact</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Order</a>
+            <a href="{{route('orders')}}" class="text-white text-decoration-none fw-semibold">Order</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Payment</a>
           </div><div class="col p-3 mx-2 my1">
