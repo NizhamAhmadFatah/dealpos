@@ -50,3 +50,7 @@ Route::get('/orders', function(){
 Route::get('/sell', function(){
     return view('sells');
 })->name('sell');
+
+Route::get('/payment', function(){
+    return view('payment');
+})->name('payment');
