@@ -7,6 +7,7 @@
 @section('container')
 
 <div class="container border-bottom hstack row g-3 p-2 mb-2">
+    <img src="img/home.svg" alt="" style="max-width: 40px">
     <div class="col-2">
       <div class="border p-1">Outlet</div>    
     </div>    

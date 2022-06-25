@@ -29,7 +29,7 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('sell')}}" class="text-white text-decoration-none fw-semibold">Sell</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Shift</a>
+            <a href="{{route('shift')}}" class="text-white text-decoration-none fw-semibold">Shift</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Reports</a>
           </div><div class="col p-3 mx-2 my1">
@@ -43,9 +43,13 @@
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Inventory</a>
           </div><div class="col p-3 mx-2 my1">
-            <a href="{{route('home')}}" class="text-white text-decoration-none fw-semibold">Adjusment</a>
+            <a href="{{route('adjustment')}}" class="text-white text-decoration-none fw-semibold">Adjusment</a>
           </div><div class="col p-3 mx-2 my1">
             <a href="{{route('sell')}}" class="text-white text-decoration-none fw-semibold">Buy</a>
+          </div><div class="col p-3 mx-2 my1">
+            <a href="{{route('logistics')}}" class="text-white text-decoration-none fw-semibold">Logistics</a>
+          </div><div class="col p-3 mx-2 my1">
+            <a href="{{route('fullfill')}}" class="text-white text-decoration-none fw-semibold">Fullfillment</a>
           </div>
       </div>
     </div>
