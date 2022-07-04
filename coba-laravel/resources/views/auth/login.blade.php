@@ -16,21 +16,22 @@
                         <div class="carousel-item active" data-bs-interval="10000">
                           <img src="..." class="d-block w-100" alt="">
                           <div class="carousel-caption d-none d-md-block">
-                            <p>em... this one e... its great</p>
+                            <p>slide one</p>
                           </div>
                         </div>
 
                         <div class="carousel-item">
                             <img src="..." class="d-block w-100" alt="">
                             <div class="carousel-caption d-none d-md-block">
-                              <p>em... i dont know, I dont think so</p>
+                              <p>slide two</p>
                             </div>
                         </div>
                       </div>
                     </div>
                   </div>
                   
-                  <div class="col-md-8 p-3">
+                  <div class="col-md-8">
+                    <div class="row"><div class="col-md-4 offset-md-4 mt-4 ps-3"><h4>Login</h4></div></div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">
                             @csrf
@@ -74,7 +75,7 @@
                                     <button type="submit" class="btn btn-primary">
                                         {{ __('Login') }}
                                     </button>
-                                    
+
                                     @if (Route::has('password.request'))
                                         <a class="btn btn-link" href="{{ route('password.request') }}">
                                             {{ __('Forgot Your Password?') }}
